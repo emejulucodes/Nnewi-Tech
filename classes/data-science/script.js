@@ -17,7 +17,7 @@ window.addEventListener("load", () => {
     address = document.querySelector("#address").value;
     skills = document.querySelector("#skill").value;
     email = document.querySelector("#email").value;
-    clas = "Mobile App Development";
+    clas = "Data Science";
     phonenumber = document.querySelector("#phone").value;
     if (skills === "") {  
         message = `https://wa.me/2348068597140?text=Hello%2C%20I%20just%20registered%20for%20${clas}.%0AHere%20are%20my%20details%3A%0AName%3A%20${firstname} ${lastname}.%0AEmail%3A%20${email}.%0APhone%20Number%3A%20${phonenumber}.%0AAddress%3A%20${address}.`
